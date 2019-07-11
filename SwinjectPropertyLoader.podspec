@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        SwinjectPropertyLoader is an extension of Swinject to load property values from resources that are bundled with your application/framework.
                        DESC
-  s.homepage         = "https://github.com/Swinject/SwinjectPropertyLoader"
+  s.homepage         = "https://github.com/wuakitv/SwinjectPropertyLoader"
   s.license          = 'MIT'
   s.author           = 'Swinject Contributors'
-  s.source           = { :git => "https://github.com/Swinject/SwinjectPropertyLoader.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:wuakitv/SwinjectPropertyLoader.git", :tag => s.version.to_s }
 
   s.source_files = 'Sources/**/*.{swift,h}'
   s.ios.deployment_target = '8.0'
